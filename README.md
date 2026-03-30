@@ -1,2 +1,14 @@
-# generador-reporte-python
-Herramienta en Python que procesa un CSV, extrae valores numéricos y genera un reporte con estadísticas básicas (total, promedio, valor máximo y mínimo).
+# Generador Automático de Reportes
+
+Este proyecto es un script en Python que genera un reporte automático a partir de un archivo CSV.  
+Calcula totales, valores máximos y mínimos, y el promedio de una columna numérica seleccionada.
+
+## Funcionalidades
+- Lectura automática de archivos CSV  
+- Extracción de valores numéricos  
+- Cálculo de estadísticas básicas  
+- Generación de un archivo de reporte en formato `.txt`  
+
+## Uso
+```python
+generar_reporte("datos.csv", "precio", "reporte.txt")
